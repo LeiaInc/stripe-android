@@ -97,11 +97,6 @@ class AddPaymentMethodActivity : StripeActivity() {
         )
     }
 
-    override fun onResume() {
-        super.onResume()
-        addPaymentMethodView.requestFocus()
-    }
-
     private fun configureView(args: AddPaymentMethodActivityStarter.Args) {
         args.windowFlags?.let {
             window.addFlags(it)

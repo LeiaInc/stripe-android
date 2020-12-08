@@ -44,14 +44,14 @@ class Settings(context: Context) {
          * [example-mobile-backend](https://github.com/stripe/example-mobile-backend),
          * the URL will be something like `https://hidden-beach-12345.herokuapp.com/`.
          */
-        private const val BASE_URL = "put your base url here"
+        private const val BASE_URL = "https://holopix-dev.appspot.com/"
 
         /**
          * Note: only necessary if not configured via `gradle.properties`.
          *
          * Set to publishable key from https://dashboard.stripe.com/test/apikeys
          */
-        private const val PUBLISHABLE_KEY = "pk_test_your_key_goes_here"
+        private const val PUBLISHABLE_KEY = "pk_test_51Hm2VsEXrVkTnLDrnBeJ6XU4Sar40QlTGf54fVzi9pSfBj3aLkgvGeXpQmOnv2PlXfTnfP69TDyjyk7UOJRqHK9O005aT3fADF"
 
         /**
          * Note: only necessary if not configured via `gradle.properties`.
