@@ -17,6 +17,7 @@ internal interface AlertDisplayer {
                     .setCancelable(true)
                     .setPositiveButton(android.R.string.ok) { dialogInterface, _ ->
                         dialogInterface.dismiss()
+                        activity.finish()
                     }
                     .create()
                     .show()
